@@ -5,7 +5,7 @@ description = "A terminal-based tool to manage Jarvislabs.ai instances."
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
-authors = [{name = "AI Assistant"}]
+authors = [{name = "Mohammed Hafeez Ahmed"}]
 dependencies = [
     "rich>=13.0.0",
     "requests>=2.0.0",
