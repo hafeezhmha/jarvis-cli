@@ -41,8 +41,8 @@ def get_balance():
     next(spinner)
     try:
         balance_info = User.get_balance()
-        if balance_info and 'credits' in balance_info:
-            balance = balance_info['credits']
+        if balance_info and 'balance' in balance_info:
+            balance = balance_info['balance']
             display_balance(balance)
         else:
             console.print("[yellow]Could not retrieve balance information.[/]")

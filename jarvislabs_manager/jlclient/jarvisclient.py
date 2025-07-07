@@ -357,8 +357,7 @@ class User(object):
 
     @classmethod
     def get_balance(cls):
-        resp = get(f"users/credits",
-                   token)
+        resp = get("users/balance", token)
         return resp
     
     @classmethod

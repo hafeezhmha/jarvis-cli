@@ -31,7 +31,8 @@ def post(data, func, token, query_params=None, no_template = None):
 
 def get(func, token, data=None):
     try:
-        r = http.request('GET', url+func,
+        full_url = url+func
+        r = http.request('GET', full_url,
                          headers = {
                                     'Authorization': f'Bearer {token}',
                                     'Content-Type': 'application/json'
