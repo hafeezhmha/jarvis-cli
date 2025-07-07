@@ -1,11 +1,8 @@
 # Jarvis CLI
 
-![JarvisLabs Logo](assets/jarvis-logo.png)
-
 A powerful, terminal-based tool to manage your [Jarvislabs.ai](https://jarvislabs.ai/) instances, account, and filesystems.
 
 This tool allows you to create, list, pause, resume, and destroy your instances, check your account balance, and manage persistent filesystems directly from the command line. It is built with Python and uses the `rich` library to provide clean, readable output.
-
 
 ![JarvisLabs Demo](assets/jarvis-demo.png)
 
@@ -32,7 +29,7 @@ To use this tool, you first need to install it and its dependencies.
 
 2.  **Navigate to the tool's directory:**
     ```bash
-    cd jarvislabs-manager
+    cd jarvis-cli
     ```
 
 3.  **Install the tool in editable mode:**

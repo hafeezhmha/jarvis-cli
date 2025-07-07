@@ -1,5 +1,5 @@
 [project]
-name = "jarvislabs-manager"
+name = "jarvis-cli"
 version = "1.0.0"
 description = "A terminal-based tool to manage Jarvislabs.ai instances."
 readme = "README.md"
@@ -15,11 +15,11 @@ dependencies = [
 keywords = ["jarvislabs", "cli", "gpu", "instances"]
 
 [project.scripts]
-jarvis = "jarvislabs_manager.cli:main"
+jarvis = "jarvis_cli.cli:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["jarvislabs_manager"] 
+packages = ["jarvis_cli"] 
